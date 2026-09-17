@@ -1,13 +1,11 @@
 name: Playwright Tests
 
 on:
-
-  
    push:
      branches: [main]
    pull_request:
      branches: [main]
-  workflow_dispatch: # MANUAL TRIGGER button in github UI
+     workflow_dispatch: # MANUAL TRIGGER button in github UI
     
 
 jobs:
